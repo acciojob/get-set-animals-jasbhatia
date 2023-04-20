@@ -8,20 +8,21 @@ class Animal {
 		return this._species;
 	}
 	makeSound(){
-		console.log(`The ${this._species} makes sound`);
+		console.log(`The ${this._species} makes a sound`);
 	}
 }
 
 class Dog extends Animal {
 	bark(){
-		return console.log("woof");
+		return console.log(`woof`);
 	}
 }
 
 class Cat extends Animal {
 	purr(){
-	console.log("purr")}
+	console.log(`purr`)}
 }
+
 
 // Do not change the code below this line
 window.Animal = Animal;
