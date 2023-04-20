@@ -19,7 +19,8 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
-	console.log("purr")
+	purr(){
+	console.log("purr")}
 }
 
 // Do not change the code below this line
